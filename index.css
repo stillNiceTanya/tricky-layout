@@ -45,15 +45,15 @@ a:hover {
   opacity: var(--custom-opacity);
 }
 
-button {
-  all: unset;
-  cursor: pointer;
-}
-
 .container {
   width: 1366px;
   background-color: var(--black);
 }
+
+button {
+    all: unset;
+    cursor: pointer;
+  }
 
 /* HEADER STYLES */
 .header__container {
