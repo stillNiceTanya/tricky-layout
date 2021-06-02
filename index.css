@@ -369,23 +369,6 @@ button {
   border-radius: 0 0 0 30px;
 }
 
-.banner__radio-decoration::before {
-  content: '';
-  position: absolute;
-  top: 58px;
-  right: -1px;
-  width: 30px;
-  height: 30px;
-  border-top: 1px solid var(--gray);
-  border-left: 1px solid var(--gray);
-  border-bottom: 0;
-  border-right: 0;
-  border-radius: 42px 0 0 0;
-  z-index: 1000;
-  transform: rotate(90deg);
-  box-shadow: -13px -15px 0px 10px var(--black);
-}
-
 .banner__radio-decoration::after {
   content: '';
   display: block;
@@ -396,6 +379,23 @@ button {
   width: 323px;
   border-bottom: 1px solid var(--gray);
 }
+
+.banner__radio-decoration::before {
+    content: '';
+    position: absolute;
+    top: 58px;
+    right: -1px;
+    width: 30px;
+    height: 30px;
+    border-top: 1px solid var(--gray);
+    border-left: 1px solid var(--gray);
+    border-bottom: 0;
+    border-right: 0;
+    border-radius: 42px 0 0 0;
+    z-index: 1000;
+    transform: rotate(90deg);
+    box-shadow: -13px -15px 0px 10px var(--black);
+  }  
 
 .banner__sound-decoration {
   position: absolute;
