@@ -468,24 +468,6 @@ button {
   background-color: var(--black);
 }
 
-.banner__carousel-centre {
-  box-sizing: border-box;
-  position: absolute;
-  height: 100%;
-  border: 1px solid var(--gray);
-  border-radius: 45px;
-  width: 64px;
-  height: 64px;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  background-color: var(--black);
-  background-image: url('img/carousel-centre.svg');
-  background-size: 28%;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
 .banner__sound-decoration::after {
     content: '';
     position: absolute;
@@ -502,4 +484,22 @@ button {
     z-index: 1000;
     transform: rotate(-180deg);
     box-shadow: -15px -15px 0px 10px var(--black);
+  }
+
+  .banner__carousel-centre {
+    box-sizing: border-box;
+    position: absolute;
+    height: 100%;
+    border: 1px solid var(--gray);
+    border-radius: 45px;
+    width: 64px;
+    height: 64px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--black);
+    background-image: url('img/carousel-centre.svg');
+    background-size: 28%;
+    background-repeat: no-repeat;
+    background-position: center;
   }
